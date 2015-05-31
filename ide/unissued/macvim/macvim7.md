@@ -51,4 +51,4 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 cd ~/.vimrc/bundle
 git clone https://github.com/kien/ctrlp.vim.git
 ```
-安装完以后直接按Ctrl+P 然后模糊输入需要打开的文件，就可以打开文件了,也可以对需要打开的文件输ctrl+v/ctrl+x 来分屏打开文件
+安装完以后直接按Ctrl+P 然后模糊输入需要打开的文件，就可以打开,也可以对需要打开的文件输ctrl+v/ctrl+x 来分屏打开.
