@@ -10,7 +10,7 @@ vim 通过插件的方式来扩展功能，例如文件的快速查找，语法�
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
-会在你的.vim目录下面安装 autoload 已经 bundle 目录，autoload用来存放pathogen脚本，bundle用来存放所有的vim插件,同时修改你的vimrc文件，加入“execute pathogen#infect()” ，这样就可以方便的安装任意的vim插件了，这里以安装NerdTree插件为例子
+会在你的.vim目录下面安装 autoload 已及 bundle 目录，autoload用来存放pathogen脚本，bundle用来存放所有的vim插件,同时修改你的vimrc文件，加入“execute pathogen#infect()” ，这样就可以方便的安装任意的vim插件了，这里以安装NerdTree插件为例子
 ```
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git

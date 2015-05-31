@@ -2,9 +2,9 @@
 
 macvim的安装非常的简单，可以官方网站下载安装包，也可以第三方包管理工具去安装，macvim是macos上是vim的一种类型，不过前者提供了一套完整的GUI而普通的vim是没有UI的。
 ```
-$ brew install macvim
+$ brew install macvim --with-cscope --with-lua --HEAD
 ```
-只要这一行命令我们就能完成macvim的安装，HOMEBREW 是mac上面的包管理工具，她可以方便的帮你下载，安装，查询和删除工具，作用和UBUNTU里面的apt-get和 OpenSuse里面的Zypper 是一样的。macvim安装成功以后，会在$VIM路径下面安装macvim的启动脚本.同时将启动脚本安装到/usr/local/bin.mvim是启动命令，mvimdiff是文件比较，mvimex是以命令行的方式运行，这个比较古老，比如打开一个文件是 mvimex filename ，这样vim就会加载文件到buffer，但不会现实，如果需要看内容可以运行 1p（表示显示第一行），一般现在很少会用，大家只要了解就够了
+只要这一行命令我们就能完成macvim的安装，HOMEBREW 是mac上面的包管理工具，她可以方便的帮你下载，安装，查询和删除工具，作用和UBUNTU里面的apt-get和 OpenSuse里面的Zypper 是一样的。macvim安装成功以后，会在$VIM路径下面安装macvim的启动脚本.同时将启动脚本安装到/usr/local/bin.mvim是启动命令，mvimdiff是文件比较，mvimex是以命令行的方式运行，这个比较古老，比如打开一个文件是 mvimex filename ，这样vim就会加载文件到buffer，但不会现实，如果需要看内容可以运行 1p（表示显示第一行），一般现在很少会用，大家只要了解就够了.这里最后的LUA代表支持vim支持LUA脚本。
 
 ```
 $ ls /usr/local/bin |grep mvim
