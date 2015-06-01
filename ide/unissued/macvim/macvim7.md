@@ -28,7 +28,7 @@ html:5
 
 ## neocomplete
 
-neocomplet 是一个非常优秀的代码补全插件，同类还有youcompleteme，不过对于老得vimer来说，普遍反应
+neocomplet 是一个非常优秀的代码补全插件，同类还有youcompleteme，不过对于老得vimer来说，普遍反映
 neocomplet用起来更加顺手。她的安装基于pathogen,不过neocomplet需要相关的版本支持LUA脚本.
 ```
 cd ~/.vim/bundle
@@ -51,4 +51,19 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 cd ~/.vimrc/bundle
 git clone https://github.com/kien/ctrlp.vim.git
 ```
-安装完以后直接按Ctrl+P 然后模糊输入需要打开的文件，就可以打开,也可以对需要打开的文件输ctrl+v/ctrl+x 来分屏打开.
+安装完以后直接按Ctrl+P 然后模糊输入需要打开的文件，就可以打开,也可以对需要打开的文件输ctrl+v/ctrl+x 来分屏打开,后者ctrl+t来分tab打开
+
+## nerdcommenter
+nerdcommenter 是一款可以快速注释的插件
+```
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdcommenter.git
+```
+同时确认在.vimrc里面开启
+```
+filetype plugin on
+```
+这样可以通过\+cc 来添加注释，也可以通过\+cu 来取消注释
+
+好了到这里这节我们介绍了vim 前段常用到的插件，但是更多的内容还是要读者自己去体会，有人形容vim像功夫片里的一句台词，“一支穿云箭，千军万马来相见”，可是我个人觉得她还是无法替代eclipse和IntelliJ等专业的IDE，不过术业有专供，她做为文本编辑器以及编写一些动态脚本语言还是非常爽的，比如ruby，比如JavaScript等。她更想一首歌里的歌词，“像一杯酒，像一首老歌”，希望大家在用的过程中慢慢品味。
+
