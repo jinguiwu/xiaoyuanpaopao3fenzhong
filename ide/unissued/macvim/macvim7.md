@@ -45,7 +45,7 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 ```
 这样代码补全就会被自动的开启。
 ## ctrlp
-这是一个可以快速打开和定位文件的插件,是小猿用过的最爽的一个插件，它可以缓存你当前目录下的所有文件，然后提供快速定位和索引的目地，如果你对自己的文件名，比较清楚，有不希望一直切换vim和terminal，那这个插件几乎可以满足你所有的对文件系统快速查找的需求。
+这是一个可以快速打开和定位文件的插件,是小猿用过的最爽的一个插件，它可以缓存你当前目录下的所有文件，然后提供快速定位和索引的目地，如果你对要查找的文件名比较清楚，又不希望一直切换vim和terminal，那这个插件几乎可以满足你所有的对文件系统快速查找的需求。
 ```
 cd ~/.vimrc/bundle
 git clone https://github.com/kien/ctrlp.vim.git
